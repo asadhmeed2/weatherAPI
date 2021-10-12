@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Ariall
+}
+
+body {
+  background: linear-gradient(to top, #4272f5, #4272f5, white);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sherch-wrapper {
+  width: 50vw;
+}
+.userPermission {
+  margin-top: 1vmax;
+  color: gray;
+}
+#confirmd {
+  color: rgba(0, 128, 0, 1);
+  cursor: pointer;
+}
+#confirmd:hover {
+  text-decoration: underline;
+}
+#declined {
+  color: rgb(146, 6, 6);
+  cursor: pointer;
+}
+#declined:hover {
+  text-decoration: underline;
+}
+.sherch-wrapper {
+  margin-top: 2vmax;
+}
+#serchBtn {
+  display: none;
+}
+.serch {
+  width: 100%;
+  padding: 1vmin;
+  border-radius: 5vmin;
+  border: none;
+}
+.serchedWeather {
+  display: flex;
+  width: 50vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.city {
+  padding: 1vmin;
+  border: 1px solid black;
+  background: linear-gradient(
+    to right bottom,
+    rgb(230, 180, 54),
+    rgb(228, 219, 169),
+    rgb(233, 183, 57)
+  );
+  border-radius: 15px;
+  margin: 2vmin;
+  text-align: center;
+}
+.cityitem {
+  margin: 1vmin 0;
+  text-align: left;
+}
+.delete {
+  border-radius: 15px;
+}
+.hide {
+    display: none;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vmin;
+    padding :3vmin;
+    width: 100%;
+    border-radius: 15px;
+    background: rgba(235, 225, 84,0.3);
+    margin-top:1vmin;
+}
+
+@media (max-width:800px) {
+    .serchedWeather{
+        width: 80vw;
+        
+    }
+}
