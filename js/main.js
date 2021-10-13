@@ -1,4 +1,4 @@
-const apiKey = "5caf34b6674ada5a1fea1c7f734d2903";
+const apiKey = "ae98edb920564d1c58b52917178a5d33";
 const url = `http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=${apiKey}`;
 const existCityInDisplay=[];
 
